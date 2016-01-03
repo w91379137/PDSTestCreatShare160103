@@ -9,10 +9,10 @@
 \f1 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 {\field{\*\fldinst{HYPERLINK "http://davemeehan.com/technology/objective-c/cocoapods-creating-and-sharing-your-first-objective-c-open-source-project"}}{\fldrslt \cf0 http://davemeehan.com/technology/objective-c/cocoapods-creating-and-sharing-your-first-objective-c-open-source-project}}\
+\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 \
 
-\f2 \'a8\'42\'c6\'4a
+\f2 \cf0 \'a8\'42\'c6\'4a
 \f1 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
@@ -36,11 +36,19 @@ git tag 0.0.1\
 git push \'a1\'58tags\
 \
 \'a6\'77\'b8\'cb\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 \'bd\'c6\'bb\'73\'a4\'40\'ad\'d3 podfile \'bd\'73\'bf\'e8\'a4\'e5\'c0\'c9\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 pod 'ProjectName', :git => 'https://github.com/UserName/ProjectName.git'\
+\'bd\'c6\'bb\'73\'a4\'40\'ad\'d3 podfile \'bd\'73\'bf\'e8\'a4\'e5\'c0\'c9\
+pod 'ProjectName', :git => 'https://github.com/UserName/ProjectName.git'\
 \
+\'a7\'f3\'b7\'73\
+pod spec \'bd\'73\'bf\'e8\'a4\'e5\'c0\'c9 \'a7\'ef\'aa\'a9\'a5\'bb\'b8\'b9 \'a7\'ef\'a5\'5d\'a7\'74\'c0\'c9\'ae\'d7\
+git commit \
+git tag 0.0.?\
+git push origin master\
+git push --tags\
+\
+pod update\
+\
+\'b0\'dd\'c3\'44\'b6\'b0\
 \
 \'ac\'4f\'a7\'5f\'a6\'b3\'bb\'b7\'ba\'ddtag\'aa\'a9\'a5\'bb\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
@@ -62,8 +70,7 @@ git push \'a1\'58tags\
 \f1 \cf0 https://cocoapods.org/}}
 \f1 \
 https://guides.cocoapods.org/using/the-podfile.html\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 \
+\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
 \f0 \cf0 \'b0\'dd\'c3\'44\'b1\'c6\'b0\'a3
@@ -77,8 +84,7 @@ https://guides.cocoapods.org/using/the-podfile.html\
 \f1 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 {\field{\*\fldinst{HYPERLINK "http://www.cnblogs.com/nonato/p/3938158.html"}}{\fldrslt \cf0 http://www.cnblogs.com/nonato/p/3938158.html}}\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 \
+\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
 \f0 \cf0 \'a8\'e4\'a5\'4c

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name     = 'PDSTestCreatShare160103'
-    s.version  = '0.0.4'
+    s.version  = '0.0.5'
     s.summary  = 'Description of your projectx'
     s.license  = {
         :type => 'MIT',
