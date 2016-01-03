@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name     = 'PDSTestCreatShare160103'
-    s.version  = '0.0.3'
+    s.version  = '0.0.4'
     s.summary  = 'Description of your projectx'
     s.license  = {
         :type => 'MIT',
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
         :git => 'https://github.com/w91379137/PDSTestCreatShare160103.git',
         :tag => s.version.to_s
     }
-    s.source_files = 'Class/*{.h,.c,.m}'
+    s.source_files = 'Class/*{.h,.c,.m,.rtf}'
     s.requires_arc = true
 
     s.platform = :ios
